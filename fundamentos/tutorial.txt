@@ -1,0 +1,40 @@
+Coisas que você precisa saber sobre o JavaScript (JS)
+
+A linguagem JS é case sensitive (faz diferença entre maiúscula e minúscula)
+
+No JS o ";" é opcional
+
+Não faz diferença usar aspas ou aspas simples, só não é permitido misturar
+(Dica: É recomendado que se use as aspas para "textos" e as aspas simpes para 'importações')
+
+Variávaeis na lingaugem JS são dinâmicamente tipadas.
+- String
+- Number
+- Boolean
+- Function
+- Object
+-
+-
+
+Para criar uma constante usamos: const
+Para criar uma variável podemos usar var ou let
+var (obsoleto e inseguro (redeclarar a variável))
+usar sempre o let
+
+Concatenação (União de textos Variávaeis)
++ (operador de soma) !EVITAR (tipagem dinâmica)
+Usar crase (forma moderna e segura)
+`texto ${variável}`
+________________________________________________________________________
+Podemos executar códigos JS no HTML de duas formas:
+
+1 -
+2 - Diretamente usando a tag <script></script>
+2 - Criando um documento JS e linkando com html usando a tag <script src="script.js"></script> 
+________________________________________________________________________
+
+## Node - Plataforma que permite a execução do JS fora do navegador de internet
+
+# Comandos Node
+node -v (mostra a versão do node)
+node arquivo.js (executar o arquivo JavaScript)
