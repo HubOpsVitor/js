@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carrossel {
+    width: 512px; /* ajuste e sincronização com JS */
+    /* exibir apenas uma imagem */
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    /* manipulando o deslocamento no eixo X */
+    transform: translateX(0);
+    /* efeito de transição suave */
+    transition: transform 0.5s ease-in-out;    
+}
+
+.container img {
+    max-width: 512px; /* ajuste e sincronização com JS */
+}
